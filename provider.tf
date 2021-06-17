@@ -1,3 +1,10 @@
+#Intersight Provider
+provider "intersight" {
+  apikey    = var.apikey
+  secretkey = var.secretkey
+  endpoint  = var.endpoint
+}
+
 # Configure the VMware vSphere Provider
 provider "vsphere" {
   user           = var.vsphere_user
