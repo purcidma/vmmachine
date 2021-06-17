@@ -4,15 +4,15 @@
 #
 
 
-vsphere_server = "10.10.20.131"
-datacenter = "Sandbox"
-resource_pool = "Test_Resource_Pool"
-datastore_name = "SpringpathDS-10.10.20.121"
-network_name = "VM Network"
-template_name = "Terraform-CentOS7Base"
-vm_folder = "demolab"
+vsphere_server = "10.88.166.27"
+datacenter = "sec"
+resource_pool = ""
+datastore_name = "Storage_All"
+network_name = "168"
+template_name = "ImageUBU"
+vm_folder = ""
 vm_prefix = "V01"
-vm_domain = "lab.devnetsandbox.local"
+vm_domain = ""
 vm_cpu = 1
 vm_memory = 4096
 
